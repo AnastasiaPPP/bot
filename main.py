@@ -6,7 +6,7 @@ import os.path
 import data_transformation as d_t
 import pathlib
 
-API_TOKEN = '5953990732:AAF5y5-FfBjW21Y283Dk1M9Lf3Es9tNk44o'
+API_TOKEN = ''
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
